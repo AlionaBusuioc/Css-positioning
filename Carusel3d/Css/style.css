@@ -48,9 +48,11 @@ background-color: #4080A6;
 }
 #f1{
   left:300px;
+  transform:scale(0.9);
 }
 #f2{
   left:150px;
+  transform:scale(1.2);
 }
 #f4{
   right:150px;
@@ -61,4 +63,8 @@ background-color: #4080A6;
 }
 #f3{
 z-index: 2;
+transform:scale(1.2);
+}
+#f1, #f2, #f3, #f4, #f5{
+  box-shadow: 0 0 05px 2px black;
 }

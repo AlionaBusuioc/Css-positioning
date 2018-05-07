@@ -1,0 +1,57 @@
+#forest{
+  /*border:5px solid blue;*/
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  background-image: url(images/forest.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#forest .goggles{
+  width: 600px;
+  height: 250px;
+  border: 10px solid #555;
+  position: absolute;
+  border-radius: 50%;
+  background-image: linear-gradient(black, white, black);
+}
+#forest .goggles .container{
+  width: 500px;
+  height: 200px;
+  background-color: #f442dc;
+  position: absolute;
+  left:50px;
+  top:25px;
+  border-radius: 50%;
+  background-image: linear-gradient(#777, black, #777);
+}
+#forest .goggles .container .glass.left{
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top:10px;
+  left:10px;
+  border-radius: 200px;
+  border-right-width: 40px;
+}
+#forest .goggles .container .glass.right{
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top:10px;
+  right:10px;
+  border-radius: 200px;
+  border-left-width:40px;
+}
+#forest .goggles .container .glass{
+  border:20px solid grey;
+  top: -10px;
+  background-image: url(images/forest.jpg);
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  transform: scale(1.3);
+}
